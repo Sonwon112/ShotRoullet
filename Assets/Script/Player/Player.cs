@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private int HP;
-    private string Gamemode;
+    protected int HP;
+    protected GameMode mode;
 
     public void setTargetAndShoot()
     {
