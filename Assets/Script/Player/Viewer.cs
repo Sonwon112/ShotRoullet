@@ -15,4 +15,9 @@ public class Viewer : Player
     {
         
     }
+
+    public void move()
+    {
+        
+    }
 }

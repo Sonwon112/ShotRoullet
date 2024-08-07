@@ -11,4 +11,14 @@ public class Player : MonoBehaviour
     {
 
     }
+
+    public void setGameMode(GameMode mode)
+    {
+        this.mode = mode;
+    }
+
+    public GameMode getGameMode()
+    {
+        return this.mode;
+    }
 }
