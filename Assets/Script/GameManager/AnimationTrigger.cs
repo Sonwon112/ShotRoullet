@@ -18,6 +18,7 @@ public class AnimationTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        //Debug.Log(other.tag);
         switch(other.tag)
         {
             case "Player":
