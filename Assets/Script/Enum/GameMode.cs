@@ -9,3 +9,9 @@ public enum GameMode
     PAUSE,
     END
 }
+
+public enum Target
+{
+    STREAMER,
+    VIEWER
+}
